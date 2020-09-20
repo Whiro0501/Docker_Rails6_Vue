@@ -21,5 +21,6 @@ services:
         # サービス間の依存関係
         depends_on:
             - db
-        tdin_open: true
+        stdin_open: true
         tty: true
+pwd
