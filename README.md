@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##Purpose
+This is a start-up kit for a  Docker of Rails and Vue Applications
 
-Things you may want to cover:
+##Instruction
+1. Git clone this repository
+2. Run "docker-compose build" to build Docker image.
+3. Run "docker-compose run web yarn install --check-files" get necessary node modules.
+4. Run "docker-compose run web rake db:create" to crteate Postgresdb.
+5. Access to "http://localhost:3000/" on Web browser.
 
-* Ruby version
+##Available Scripts
 
-* System dependencies
+In the project directory, you can run:
 
-* Configuration
+docker-compose build
+docker-compose run web yarn install --check-files
+docker-compose run web rake db:create
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
