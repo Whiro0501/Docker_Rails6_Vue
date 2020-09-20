@@ -18,10 +18,6 @@ RUN mkdir /myapp
 # 絶対パスとする
 WORKDIR /myapp
 
-COPY package.json /myapp/package.json
-COPY yarn.lock  /myapp/yarn.lock
-RUN yarn install
-
 # Gemfileが更新された時のみ、レイヤを再構築
 #先にプロジェクト全体をコピーしないのはレイヤーを分けるため
 COPY Gemfile /myapp/Gemfile
