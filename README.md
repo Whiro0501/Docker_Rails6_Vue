@@ -22,6 +22,8 @@ docker-compose build
 docker-compose run web yarn install --check-files
 
 docker-compose run web rake db:create
+
+docker-compose up
 ```
 
 Runs the app in the development mode.
