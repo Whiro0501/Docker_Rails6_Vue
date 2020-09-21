@@ -9,7 +9,8 @@ This is a start-up kit for a  Docker of Rails and Vue Applications
 2. Run "docker-compose build" to build Docker image.
 3. Run "docker-compose run web yarn install --check-files" get necessary node modules.
 4. Run "docker-compose run web rake db:create" to crteate Postgresdb.
-5. Access to "http://localhost:3000/" on Web browser.
+5. Run "docker-compose up" to start the rails application
+6. Access to "http://localhost:3000/" on Web browser.
 
 ## Available Scripts
 
