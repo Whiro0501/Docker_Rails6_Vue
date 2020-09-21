@@ -10,7 +10,8 @@ This is a start-up kit for a  Docker of Rails and Vue Applications
 3. Run "docker-compose run web yarn install --check-files" get necessary node modules.
 4. Run "docker-compose run web rake db:create" to crteate Postgresdb.
 5. Run "docker-compose up" to start the rails application
-6. Access to "http://localhost:3000/" on Web browser.
+6. Run "docker-compose exec web ./bin/webpack-dev-server" 
+7. Access to "http://localhost:3000/" on Web browser.
 
 ## Available Scripts
 
@@ -24,6 +25,9 @@ docker-compose run web yarn install --check-files
 docker-compose run web rake db:create
 
 docker-compose up
+
+docker-compose exec web ./bin/webpack-dev-server
+
 ```
 
 Runs the app in the development mode.
