@@ -11,7 +11,8 @@
 		"vue-loader": "^15.9.3",
 		"vue-template-compiler": "^2.6.12",
 		"vue-router": "^3.0.1",
-		"vuex": "^3.0.1"
+		"vuex": "^3.0.1",
+		"vuetify": "^2.3.10"
 	},
 	"version": "0.1.0",
 	"devDependencies": {
