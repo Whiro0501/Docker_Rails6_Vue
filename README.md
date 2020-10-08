@@ -30,6 +30,12 @@ docker-compose exec web ./bin/webpack-dev-server
 
 ```
 
+Connet Rails to Vue
+```
+<%= javascript_pack_tag 'hello_vue' %>
+<%= stylesheet_pack_tag 'hello_vue' %>
+```
+
 Runs the app in the development mode.
 
 Open http://localhost:3000 to view it in the browser.
